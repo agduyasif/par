@@ -1,0 +1,110 @@
+
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --amarillo: #ffc107;
+    --azul: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+}
+
+
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px; /* 1rem = 10px*/
+    padding: 0;
+    margin: 0;
+    background-color: #000080;
+    font-family: "Krub", sans-serif;
+}
+
+.titulo{
+    background-color: #0f50a1;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.foto{
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    height: 40rem;
+    width: 30rem;
+}
+
+
+.nombres{
+    color: white;
+    font-weight: 900;
+    font-size:2rem;
+    margin-left:3rem ;
+
+}
+
+
+.nombres span{
+    font-weight: 100;
+    margin-left: rem;
+
+}
+
+.nombres a{
+    font-weight: 100;
+    margin-left: 1rem;
+
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    background-image: url("Fotos/f809578f-0318-4c0a-a4c7-ab8961e5d0d0.jpg");
+    background-color: #0f50a1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+}
+
+
+
+
+@media (min-width:768px) {
+
+    .todo{
+        display: flex;
+    }
+
+    .nombres{
+        flex-direction: column;
+        margin: 12rem 10rem;
+    }
+
+    .foto{
+        margin: 10rem 7rem 10rem 10rem;
+        height: 50rem;
+        width: 40rem;
+    }
+}
+
+
+
+
